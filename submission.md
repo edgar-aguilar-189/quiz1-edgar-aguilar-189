@@ -8,7 +8,7 @@
 
 
 ---
-## Name:                                  <!-- answer -->
+## Name: Edgar Aguilar                                  <!-- answer -->
 
 
 1. A URL is comprised of a number of components.  Consider the following URL:
@@ -16,14 +16,31 @@
   ``one://two:three@four.five.size:seven/eight/nine/ten?eleven=twelve&thirteen=fourteen#fifteen``
 
   * Provide both the name and value of each component.
-    1. scheme: "one"                                    <!-- answer -->
-    1.                                                  <!-- answer -->
-    1.                                                  <!-- answer -->
+    1. "one" - scheme                                   <!-- answer -->
+    1. "two" -                                    <!-- answer -->
+    1. "three" -                        <!-- answer -->
+    1. "four" -                         <!-- answer -->
+    1. "five" -                           <!-- answer -->
+    1. "six" -                      <!-- answer -->
+    1. "seven" -                    <!-- answer -->
+    1. "eight" -                  <!-- answer -->
+    1. "nine" -                 <!-- answer -->
+    1. "ten" -                <!-- answer -->
+    1. "eleven" -               <!-- answer -->
+    1. "twelve" -               <!-- answer -->
+    1. "thirteen" -               <!-- answer -->
+    1. "fourteen" -               <!-- answer -->
+    1. "fifteen" -                                       <!-- answer -->
     <!-- Add more lines as needed -->
 
 1. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
    ```
-                                                        <!-- answer -->
+  git clone git@github.com:org/project.git .
+  touch newfile
+  git add .
+  git commmit -m "adding new file"
+  git push                                                      
+  <!-- answer -->
    ```
    <!-- You many add any number of lines in the above code block that you need. -->
 
@@ -74,12 +91,12 @@
 
 1. There are a number of different types of files.  Each of these file types can be identified by a single character in the output of the command ``ls -l``.  What are these types of files:
    1. -: a regular file
-   1. p:                                                          <!-- answer -->
-   1. l:                                                          <!-- answer -->
-   1. d:                                                          <!-- answer -->
-   1. b:                                                          <!-- answer -->
-   1. c:                                                          <!-- answer -->
-   1. s:                                                          <!-- answer -->
+   1. p: pipe                                                         <!-- answer -->
+   1. l: symbolic link                                                         <!-- answer -->
+   1. d: directory                                                         <!-- answer -->
+   1. b: block file                                                        <!-- answer -->
+   1. c: character file                                                         <!-- answer -->
+   1. s: socket                                                        <!-- answer -->
 
 1. Describe each of the following:
   - process:                                                      <!-- answer -->
