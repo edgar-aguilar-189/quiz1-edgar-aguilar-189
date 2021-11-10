@@ -62,18 +62,27 @@
 1. Given the following command, provide the corresponding HTTP Request Header:
     * curl  https://www.csun.edu/~steve/roster/input/value/input/value
     ```
-                                                      <!-- answer -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en-us" />
+<meta name="language" content="en" />
+<meta name="robots" content="noindex, nofollow"/> 
+<meta name="version" content="1.0" /> 
+<meta name="author" content="California State University, Northridge, Office of University Web Communications" /> 
+<meta name="company" content="California State University, Northridge" /> 
+<meta name="copyright" content="Copyright (c) 2008 California State University, Northridge" /> 
+<meta http-equiv="cache-control" content="NO-CACHE"/>
+<meta http-equiv="expires" content="Mon, 22 Jul 1901 11:12:01 GMT"/>                                                <!-- answer -->
     ```                                                      
     <!-- You many add any number of lines in the above code block that you need. -->
 
 1. The CGI standard defines a number of environment variables that are provided to a CGI program.  Identify and explain the purpose of 6 of these environment variables.
    1. QUERY_STRING:  the part of URL after ? character.             <!-- answer -->
-   1.                                                               <!-- answer -->
-   1.                                                               <!-- answer -->
-   1.                                                               <!-- answer -->
-   1.                                                               <!-- answer -->
-   1.                                                               <!-- answer -->
-
+   1. SERVER_NAME: The server's hostname or address.                <!-- answer -->
+   1. AUTH_TYPE: The authentication method used to validate a user. <!-- answer -->
+   1. HTTP_FROM: The email address of the user making the request.  <!-- answer -->
+   1. HTTP_ACCEPT: A list of the MIME types that the client can accept. <!-- answer -->
+   1. HTTP_USER_AGENT: The browser the client is using to issue the request. <!-- answer -->
+   
 
  1. Consider the following URL and regular expression used to process this string:
     * URL:   ``http://www.fake.org/marking/john.smith/code=10325/app/input``
