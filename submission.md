@@ -17,50 +17,46 @@
 
   * Provide both the name and value of each component.
     1. "one" - scheme                                   <!-- answer -->
-    1. "two" -                                    <!-- answer -->
-    1. "three" -                        <!-- answer -->
-    1. "four" -                         <!-- answer -->
-    1. "five" -                           <!-- answer -->
-    1. "six" -                      <!-- answer -->
-    1. "seven" -                    <!-- answer -->
-    1. "eight" -                  <!-- answer -->
-    1. "nine" -                 <!-- answer -->
-    1. "ten" -                <!-- answer -->
-    1. "eleven" -               <!-- answer -->
-    1. "twelve" -               <!-- answer -->
-    1. "thirteen" -               <!-- answer -->
-    1. "fourteen" -               <!-- answer -->
-    1. "fifteen" -                                       <!-- answer -->
+    1. "two" - authority                                  <!-- answer -->
+    1. "three" - password                       <!-- answer -->
+    1. "four.five.size" -  hostname                       <!-- answer -->
+    1. "seven" -  port                                    <!-- answer -->
+    1. "eight/nine/ten" -  path to file                <!-- answer -->
+    1. "eleven" -  args             <!-- answer -->
+    1. "twelve" -   args            <!-- answer -->
+    1. "thirteen" -  args             <!-- answer -->
+    1. "fourteen" -   args            <!-- answer -->
+    1. "fifteen" -  fragment                                     <!-- answer -->
     <!-- Add more lines as needed -->
 
 1. In the following code block, provide the git instructions necessary to add a new file to the remote repository: git@github.com:org/project.git (You should presume that you don't have a copy of this repository on your local computer.)
    ```
-  git clone git@github.com:org/project.git .
-  touch newfile
-  git add .
-  git commmit -m "adding new file"
-  git push                                                      
+  git clone git@github.com:org/project.git . ;
+  touch newfile ;
+  git add . ;
+  git commmit -m "adding new file" ;
+  git push ;                                                     
   <!-- answer -->
    ```
    <!-- You many add any number of lines in the above code block that you need. -->
 
 1. Provide the Apache Directive used to perform the requested action
    1. Position the location of root location of the website at:  /var/www/html
-     *                                                  <!-- answer -->
+     *  DocumentRoot                                                <!-- answer -->
    1. To disable the user "steve" from having a web presence on your server.
-     *                                                  <!-- answer -->
+     *  UserDir disabled steve                                               <!-- answer -->
    1. To create an alias between the URI: /marketing and the file: /user/marketing/www
-     *                                                  <!-- answer -->
+     *  AliasMatch                                               <!-- answer -->
    1. To define the location of the error log to be: /var/log/apps/apache/error.log
-     *                                                  <!-- answer -->
+     *  ErrorDocument                                                <!-- answer -->
 
 
 1. What is the command used to create the user "steve" within your apache container?
-    *                                                  <!-- answer -->
+    *  adduser steve                                                <!-- answer -->
 
 
 1. What does the "AllowOverride" Directive do?
-    *                                                  <!-- answer -->
+    * Allows certain types of directives in .htaccess files to override apache settings.                                                  <!-- answer -->
 
 
 1. Given the following command, provide the corresponding HTTP Request Header:
