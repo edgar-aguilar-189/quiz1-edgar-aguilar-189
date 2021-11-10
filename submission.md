@@ -104,7 +104,7 @@
    1. s: socket                                                        <!-- answer -->
 
 1. Describe each of the following:
-  - process:                                                      <!-- answer -->
+  - process: A running instance of a program.                                                      <!-- answer -->
   - environment:                                                  <!-- answer -->
   - stdin: Standard input value with a value of 0. Takes input from the system.  <!-- answer -->
   - $?: Exit status of the last executed command.                <!-- answer -->
